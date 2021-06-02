@@ -1,0 +1,25 @@
+$color-orange: rgb(242, 190, 36);
+$color-grey: rgb(51, 51, 51);
+$color-blue: #91AEDE;
+
+.cart-link {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: $color-orange;
+  color: $color-grey;
+  width: 65px;
+  height: 65px;
+  font-size: 32px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+  }
+}
