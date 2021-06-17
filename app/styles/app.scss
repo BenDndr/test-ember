@@ -1,7 +1,9 @@
 @import "./homepage.scss";
+@import "./product.scss";
 
 $color-orange: rgb(242, 190, 36);
 $color-grey: rgb(51, 51, 51);
+$color-blue: #91AEDE;
 
 body {
   background-color: #a6c8ff;
@@ -10,4 +12,13 @@ body {
 
 h1 {
   text-align: center;
+}
+
+.link-banner {
+  text-decoration: none;
+  color: $color-orange;
+  &:hover {
+    text-decoration: none;
+    color: $color-orange;
+  }
 }
