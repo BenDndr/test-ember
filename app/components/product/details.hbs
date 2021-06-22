@@ -1,21 +1,22 @@
 <div class="product-details">
 
     <section>
-      <h3>{{@name}}</h3>
+      <h4>{{@name}}</h4>
       <div class="text-warning">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
-        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-half"></i>
       </div>
     </section>
 
-    <section>
-      <del class="small text-black-50">{{@price.original}}€</del>
-      <i class="text-danger font-weight-bold">{{@price.current}}€</i>
+    <section class={{unless @isDetails 'h4'}}>
+      <del class="small text-black-50">{{currency @price.original}}</del>
+      <i class="text-danger font-weight-bold">{{currency @price.current}}</i>
     </section>
 
+    {{#if @isDetails}}
     <div>
       <h5>Color</h5>
       <div class="product-colors active-{{@color}}">
@@ -25,4 +26,5 @@
         {{/each}}
       </div>
     </div>
+    {{/if}}
   </div>
