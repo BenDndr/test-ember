@@ -4,7 +4,7 @@ Mon objectif avec ce projet était de découvrir le framework Emberjs.
 
 Le site se comporte comme un site e-commerce où un utilisateur pourra parcourir une liste d'objets et consulter les détails de chacun de ces objets avant des les ajouter à son panier.
 
-- Ce projet m'aura permis d'apprendre:
+Ce projet m'aura permis d'apprendre:
 - le setup d'un projet Emberjs
 - le routing sur Emberjs
 - le fonctionnement des components
