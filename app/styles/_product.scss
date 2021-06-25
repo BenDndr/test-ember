@@ -78,6 +78,9 @@
     &.color-black {
       background: rgba(51, 51, 51, 1);
     }
+    &.color-yellow {
+      background: rgba(242, 190, 36, 1);
+    }
   }
 
   .active-red .color-red:before {
@@ -87,10 +90,20 @@
   .active-black .color-black:before {
     border: 1px solid rgba(51, 51, 51, 1);
   }
+
+  .active-yellow .color-yellow:before {
+    border: 1px solid rgba(242, 190, 36, 1);
+  }
 }
 
 .item-details-page {
   width: 100%;
   box-shadow: none;
   border-radius: 0;
+}
+
+.features {
+  margin-bottom: 80px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 24px;
 }
