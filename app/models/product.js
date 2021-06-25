@@ -6,4 +6,5 @@ export default class ProductModel extends Model {
   @attr price;
   @attr features;
   @attr colors;
+  @attr rating;
 }

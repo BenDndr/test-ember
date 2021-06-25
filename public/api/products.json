@@ -24,7 +24,8 @@
         "color": "black",
         "image": "/assets/images/beats-solo-black.png"
       }
-    ]
+    ],
+    "rating": 4
   },
   {
     "id": "2",
@@ -42,7 +43,32 @@
     "colors": [{
       "color": "white",
       "image": "/assets/images/nike-af1-white.png"
-    }]
+    }],
+    "rating": 3
+    },
+    {
+      "id": "3",
+      "name": "Saxophone Alto",
+      "description": "",
+      "price": {
+        "original": 599.95,
+        "current": 449.95
+      },
+      "features": [
+        "Combines state-of-the-art production expertise with design elements",
+        "Alto Saxophone gives sax players who want to step up a better instrument with reassuring key action",
+        "Easy to play, cristal clear sound",
+        "Exist in two colors"
+      ],
+      "colors": [{
+        "color": "yellow",
+        "image": "/assets/saxophone-red.jpg"
+      },
+      {
+        "color": "black",
+        "image": "/assets/saxophone-black.jpg"
+      }],
+      "rating": 5
     }
   ]
 
