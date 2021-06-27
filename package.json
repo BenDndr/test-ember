@@ -1,8 +1,8 @@
 {
-  "name": "test-ember",
+  "name": "embershop",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for test-ember goes here",
+  "description": "Small description for embershop goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -34,8 +34,6 @@
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.3",
     "ember-cli-dependency-checker": "^3.2.0",
-    "ember-cli-deploy": "^1.0.2",
-    "ember-cli-deploy-build": "^2.0.0",
     "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-inject-live-reload": "^2.0.2",
     "ember-cli-sass": "^10.0.1",
@@ -62,7 +60,7 @@
     "prettier": "^2.2.1",
     "qunit": "^2.14.1",
     "qunit-dom": "^1.6.0",
-    "sass": "^1.34.0"
+    "sass": "^1.35.1"
   },
   "engines": {
     "node": "10.* || >= 12"
